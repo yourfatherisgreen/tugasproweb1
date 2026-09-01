@@ -1,0 +1,135 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tugas 1 Dasproweb</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">  
+  </head>
+  <body>
+      <style>
+  *{
+      font-family:Google Sans Flex;
+      color: #374048;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  table {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  table, th, td {
+    border: 1px solid #bbb8b6;
+    color: black;
+    border-radius: 5px;
+  }
+  .first-child{
+    background-color: #F8F5F0;
+    height: 13.75vh;
+  }
+  .second-child{
+    background-color: #F2EFEC;
+    height: 10vh; 
+  }
+  .third-child{
+    height: 32.5vh; 
+    background-color: #F8F5F0;
+  }
+  .fourth-child{
+    height: 32.5vh;
+    background-color: #F2EFEC;
+  }
+  .footer{
+    height: 5vh;
+    background-color: #0e3456;
+  }
+  .list li{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    list-style-type: none;
+    font-weight: light;
+  }
+
+  .list a{
+      text-decoration: none;
+      color: inherit;
+  }
+  .list a:hover{
+      color: #246ba9;
+      transition: 100ms;
+  }
+  .footer h5{
+    color: #F8F5F0;
+    font-weight: bold;
+  }
+
+  </style>
+
+  <table>
+      <!-- section 1-->
+    <tr class="first-child">
+      <th colspan="2">
+        <div style="display: flex; justify-content: start;margin-left:30px;">
+          <img src="./images/pasfoto.jpg" alt="foto-profil" height="150" width="150" loading="eager" style="border: transparent;border-radius:100%;object-fit: cover;object-position:center 25%; margin-right: 30px;">
+          <div style="justify-items: start;align-items: flex-start;">
+              <p style="text-transform: uppercase; font-weight: bolder;font-size: larger;">MUHAMMAD AZMI RAHMAN NASUTION</p>
+        <p style="text-transform: uppercase; font-weight: bolder;font-size: larger;">Mahasiswa Teknologi Informasi Universitas Sumatera Utara</p>
+        <p  style="text-transform: uppercase; font-weight: bolder;font-size: larger;">Medan, Indonesia</p>
+          </div>
+        </div>
+    </tr>
+      <!-- section 1-->
+        <!-- section 2-->
+    <tr class="second-child">
+      <div style="display: flex; justify-content:center;">
+        <th colspan="2">
+      <h2 style="text-transform: uppercase;">
+      media sosial
+      </h2>
+      <ul class="list">
+      <li>
+      <a href="https://www.instagram.com/azmi_nst_?igsh=a3V2N3RyaWtqNTNy">Instagram</a>
+      <a href="https://www.linkedin.com/in/muhammad-azmi-rahman-nasution-115628372">LinkedIn</a>
+      <a href=" https://github.com/yourfatherisgreen">Github</a>
+      <a href="https://www.muhammadazmi.my.id/#herosec">Personal Webiste</a>
+      </li>
+            </ul>
+      </th>
+      </div>
+    
+    </tr>
+      <!-- section 2-->
+      <!-- section 3-->
+    <tr>
+      <td class="third-child">
+          <h3>Content left</h3>
+      </td>
+      <td class="fourth-child">
+        <div style="display: flex;justify-content: start;margin-left: 10px;">
+          <div style="align-items: flex-start;">
+                <h4>Tentang Saya</h4>
+           <p>Halo, saya Muhammad Azmi Rahman Nasution, Mahasiswa baru program studi Teknologi Informasi Universitas Sumatera Utara 2026. Saya lahir di Medan, tanggal 12 November 2007 <br> Saya memiliki minat yang besar dalam dunia IT terkhususnya untuk pengembangan website untuk saat ini, karena saya dapat mewujudkan ide-ide yang ada di kepala saya dalam bentuk halaman digital.<br>  Minat saya ini terbentuk dari studi saya sebelumnya di program studi Manajemen Informatika di kampus sebelumnya.Namun saya menyadari saat memulai kembali disini akan ada sangat banyak hal baru<br> yang akan saya pelajari dan harapannya banyak kesempatan dan prestasi baru yang bisa didapatkan.</p>
+          </div>
+        </div>
+      </td>
+    </tr>
+    <!-- section 3-->
+    <!-- section 4-->
+    <tr class="footer">
+      <th colspan="2"><h5>@ 2026 Muhammad Azmi Rahman Nasution. All Rights Reserved</h5></th>
+    </tr>
+    <!-- section 4-->
+  </table>
+
+  </body>
+  </html>
