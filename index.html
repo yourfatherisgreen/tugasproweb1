@@ -41,6 +41,7 @@
   }
   .third-child{
     height: 32.5vh; 
+    width: 15vh;
     background-color: #F2EFEC;
   }
   .fourth-child{
@@ -72,6 +73,21 @@
     color: #F8F5F0;
     font-weight: bold;
   }
+  @media (max-width: 600px) {
+  .first-child img {
+    width: 100px !important;
+    height: 100px !important;
+    margin-right: 15px !important;
+    flex-shrink: 0;
+  }
+
+  .first-child p {
+    font-size: 10px !important;
+    margin: 8px 0;
+    align-items: flex-start;
+  }
+  
+}
 
   </style>
 
@@ -80,10 +96,10 @@
     <tr class="first-child">
       <th colspan="2">
         <div style="display: flex; justify-content: start;margin-left:30px;">
-          <img src="./images/pasfoto.jpg" alt="foto-profil" height="150" width="150" loading="eager" style="border: transparent;border-radius:100%;object-fit: cover;object-position:center 25%; margin-right: 30px;">
+          <img src="./images/pasfoto.jpg" alt="foto-profil" height="150" width="150" loading="eager" style="border: transparent;border-radius:100%;object-fit: cover;object-position:center 25%; margin-right: 30px ;">
           <div style="justify-items: start;align-items: flex-start;">
               <p style="text-transform: uppercase; font-weight: bolder;font-size: larger;">MUHAMMAD AZMI RAHMAN NASUTION</p>
-        <p style="text-transform: uppercase; font-weight: bolder;font-size: larger;">Mahasiswa Teknologi Informasi Universitas Sumatera Utara</p>
+        <p class="longtext" style=" text-transform:uppercase ; font-weight: bolder;font-size: larger;">Mahasiswa Teknologi Informasi Universitas Sumatera Utara</p>
         <p  style="text-transform: uppercase; font-weight: bolder;font-size: larger;">Medan, Indonesia</p>
           </div>
         </div>
@@ -118,7 +134,7 @@
           </h3>
       </td>
       <td class="fourth-child">
-        <div style="display: flex;justify-content: start;margin-left: 10px;flex-direction: column;">
+        <div style="display: flex;justify-content: center;margin-left: 10px;flex-direction: column;">
           <div style="align-items: flex-start;flex-direction: column;margin-bottom: 35vh;font-size: larger;">
            <p ><strong>Tentang saya</strong> <br>Halo, saya Muhammad Azmi Rahman Nasution, Mahasiswa baru program studi Teknologi Informasi Universitas Sumatera Utara 2026. Saya lahir di Medan, tanggal 12 November 2007 <br> Saya memiliki minat yang besar dalam dunia IT terkhususnya untuk pengembangan website untuk saat ini, karena saya dapat mewujudkan ide-ide yang ada di kepala saya dalam bentuk halaman digital. Minat saya ini terbentuk dari studi saya sebelumnya di jurusan IT di kampus sebelumnya.Namun saya menyadari saat memulai kembali disini akan ada sangat banyak hal baru yang akan saya pelajari dan harapannya banyak kesempatan dan prestasi baru yang bisa didapatkan.</p>
             <p ><strong>Keterampilan & Fun fact :</strong> <br> </p>
@@ -127,7 +143,7 @@
               <li>Pengetahuan dasar tentang hardware komputer</li>
               <li>Baik hati dan rajin menabung</li>
               <li>Pernah freelance tutor Bahasa Inggris</li>
-              <li>Taken,walaupun gaada yang nanya, info ajh</li>
+              <li>Taken,walaupun gaada yang nanya, just info</li>
             </ul>
           </div>
         </div>
